@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>screenhero</id>
+    <title>Screenhero</title>
+    <version>2.3.6.0</version>
+    <authors>Screenheor, Inc</authors>
+    <owners>Kevin Nord</owners>
+    <summary>Screen sharing for collaboration in teams.</summary>
+    <description>Screen sharing for collaboration in teams.</description>
+    <packageSourceUrl>https://github.com/kevnord/ScreenheroChocolateyPackage</packageSourceUrl>
+    <projectUrl>http://www.screenhero.com/</projectUrl>
+    <tags>slack team screen-sharing collaboration</tags>
+    <licenseUrl>https://screenhero.com/terms.html</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://d13yacurqjgara.cloudfront.net/users/2804/screenshots/1194100/dribbble_icon_512x512.png</iconUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
